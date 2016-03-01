@@ -1,0 +1,104 @@
+.dropbtn {
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+#user{
+  float: right;
+  margin-right: 15px;
+}
+
+body {
+  margin: auto;
+  width: 70%;
+
+
+}
+img{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  background-color: hsla(0, 100%, 30%, 0.3);
+  border: 1px solid black;
+}
+
+
+.left{
+    width:70%;
+    height: 773px;
+    float: left;
+    background-color: hsla(0, 100%, 50%, 0.3);
+}
+
+.right{
+    background-color: hsla(0, 100%, 90%, 0.3);
+    width:30%;
+    height: 773px;
+    float: right;
+}
+
+
+ul li {
+  float:left;
+
+}
+
+body footer {
+  clear: both;
+  bottom:0;
+  height:80px;   /* Height of the footer */
+  background-color: hsl(0, 100%, 70%);
+}
+
+
+h3{
+   text-indent: 40px;
+}
+
+form{
+  margin-left: 20px;
+}
+
+p{
+  float: left;
+}

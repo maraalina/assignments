@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.floatleft{
+  float: left;
+}
+
+.floatright{
+  float: right;
+}
+
+.both{
+  clear: both;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  width:100%;
+  height: 100%;
+}
+
+.container{
+  width: 100% ;
+  height: 100vh;
+  background-color: #ADDBA4 ;
+}
+
+    .container .window{
+      position: relative;
+      width: 960px;
+      height: 500px;
+      margin: 0 auto;
+      box-shadow: 2px 2px 20px #888888;
+      background-color: white;
+      top:20%;
+    }
+
+.header{
+  height: 15%;
+  border-bottom: 1px solid #EFEFEF;
+}
+  .back{
+    padding: 25px 40px;
+  }
+
+      .back a{
+        text-decoration: none;
+        font-family: 'Kanit', sans-serif;
+        color: #727272;
+      }
+
+  .heart a {
+    display: block;
+    padding: 12px 18px;
+    color: #727272;
+    font-family: 'Kanit', sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+  }
+
+.content {
+  width: 100%;
+  height: 85%;
+}
+
+  .image{
+    width: 30%;
+    height: 99%;
+    border-right: 1px solid #EFEFEF;
+  }
+
+      img{
+        margin: 0 auto;
+        display: block;
+      }
+
+.info{
+  width: 65%;
+  height: 99%;
+  margin-top: 50px;
+}
+
+  .up #title{;
+    font-family: 'Lato', sans-serif;
+    color: #515151;
+    font-size: 28px;
+  }
+
+  .up #subtitle{
+    font-family: 'Kanit', sans-serif;
+    color: #b0a1a1;
+    font-size: 18px;
+}
+  .up #dollar{
+    color: #515151;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 3px;
+    padding: 15px 0;
+  }
+
+  .up .descr{
+    color: #b0a1a1;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    padding-right: 150px;
+  }
+
+  .down .btn1 {
+    background-color: white;
+    color: #7a878e;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bolder;
+    padding: 10px 30px;
+    font-size: 17px;
+    border: 2px solid #d9d9d9;
+    margin-right: 7px;
+    margin-top: 35px;
+  }
+
+  .down .btn2 {
+    background-color: white;
+    color: #7a878e;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 10px 38px;
+    border: 2px solid #d9d9d9;
+    margin-top: 35px;
+  }

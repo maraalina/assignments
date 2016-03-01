@@ -1,0 +1,501 @@
+.col-100 {
+  width: 100%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.col-33 {
+  width: 33.3333%;
+}
+
+.col-66 {
+  width: 66.6666%;
+}
+
+.col-75 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+.col-80{
+  width: 80%;
+}
+.col-20 {
+  width: 20%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after,
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.cf:after,
+.row:after {
+  clear: both;
+}
+
+[class^="col-"],
+[class*=" col-"] {
+  float: left;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+html,
+body {
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+}
+
+.vertical {
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
+.vertical .inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header {
+  height: 100%;
+  background: url('../img/desert.jpg') no-repeat;
+  background-size: cover;
+}
+
+.navigation-bar {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.navigation-bar .burger-menu,
+.navigation-bar .call-action-menu {
+  position: absolute;
+  top: 0;
+  padding: 20px 20px 0 20px;
+}
+
+.navigation-bar .burger-menu {
+  left: 0;
+}
+
+.navigation-bar .call-action-menu {
+  right: 0;
+}
+
+.navigation {
+  display: inline;
+  margin: 20px 0 0 0;
+  list-style: none;
+}
+
+.navigation > li {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 2;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px 10px 0 10px;
+}
+
+.navigation > a img{
+  margin-top: 10px;
+}
+
+.navigation > li a {
+  text-decoration: none;
+  color:white;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+
+.hero-unit {
+  text-align: center;
+  color: white;
+}
+
+.hero-unit .title {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 74px;
+  text-transform: none;
+  letter-spacing: 2px;
+  -webkit-transform: rotate(356deg);
+  -moz-transform: rotate(356deg);
+  -o-transform: rotate(356deg);
+    writing-mode: rl-tb;
+}
+
+.hero-unit .sub-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn {
+  padding: 12px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+  letter-spacing: 2px;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #437F9B;
+  border: 1px solid #316882;
+}
+
+.btn-nav{
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+  border: 1px solid lightgrey;
+  color: black;
+  float: right;
+}
+
+.btn-down{
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+  border: 1px solid lightgrey;
+  color: black;
+}
+
+.fa-bars{
+  float: left;
+  color: white;
+  font-size: 40px;
+}
+
+.down{
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+}
+
+.down h4{
+  color: white;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  margin-bottom: 2px;
+}
+
+.down h3{
+  letter-spacing: 2px;
+  color: white;
+  font-size: 19px;
+  margin-top: 0;
+}
+
+.down p #see{
+  font-style: italic;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.down a{
+  font-style: italic;
+}
+
+.proof {
+  margin-top: 75px;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.proof .title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 33px;
+  letter-spacing: 5px;
+  margin-bottom: 0;
+}
+
+.proof .sub-title{
+  color:rgba(170, 61, 54, 1);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.proof .call-action {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  font-weight: bold;
+}
+
+.adventures-list .adventure-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.adventures-list .adventure-item .action {
+  color: white;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.adventures-list .adventure-item .outer  {
+    position: relative;
+    height: 400px;
+}
+
+.adventures-list .adventure-item .inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.slide{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 800px;
+  margin: 0 20px;
+}
+
+.slide .arrow{
+  color: white;
+  font-size: 64px;
+  margin-top: 400px;
+}
+
+.fa-arrow-right{
+  padding-left: 45px;
+}
+
+.fa-arrow-left{
+  padding-left: 45px;
+}
+
+.madagascar{
+  text-align: center;
+  margin-top: 250px;
+}
+.madagascar h1{
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 0;
+}
+
+.madagascar hr{
+  margin-top: 15px;
+  margin-bottom: 50px;
+  align:center;
+  width:5%;
+}
+
+.madagascar p{
+  color: white;
+  font-size: 20px;
+  padding: 0 300px;
+  margin-bottom: 60px;
+}
+
+.btn-read{
+  padding: 8px 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+  letter-spacing: 3px;
+  font-family: 'Raleway', sans-serif;
+  background-color: black;
+  color: white;
+  font-style: italic;
+}
+
+.countries-list{
+  margin-top: 100px;
+  margin: auto;
+  width: 80%;
+}
+
+.list{
+  margin-top: 40px;
+}
+
+    .list img{
+      height: 165px;
+      width: 186px;
+      float: left;
+      margin-right: 20px;
+    }
+
+    .list .title {
+      text-transform: uppercase;
+      font-family: 'Slabo 27px', serif;
+      color:rgba(170, 61, 54, 1);
+      margin: 0;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-style: italic;
+    }
+
+    .list .subtitle{
+      color: #2f2f2f;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      margin: 4px;
+      letter-spacing: 2px;
+      font-size: 18px;
+    }
+
+    .list .info{
+      color: #d3d3d3;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+    }
+
+    .section-down{
+      width: 100%;
+      height: 300px;
+      background-color: #1E1E1E;
+      margin-top: 100px;
+    }
+      .section-down .section-content{
+          width: 80%;
+          margin: auto;
+          margin-top: 30px;
+          font-family: 'Roboto', sans-serif;
+          font-weight: bolder;
+          font-size: 15px;
+          letter-spacing: 2px;
+        }
+
+        .left-list .home{
+          list-style: none;
+          line-height: 3;
+        }
+
+
+            .left-list .home a{
+              color: white;
+              text-decoration: none;
+            }
+
+          .middle-list .adventure-list{
+            list-style: none;
+            line-height: 3;
+          }
+
+                .middle-list .adventure-list a{
+                  color: white;
+                  text-decoration: none;
+                }
+
+          .right-list .list-right{
+            list-style: none;
+            line-height: 3;
+            color: white;
+          }
+
+              .right-list .list-right .title{
+                font-size: 15px;
+                letter-spacing: 2px;
+                margin: 0;
+              }
+
+              .right-list .list-right input{
+                padding: 0 50px 3px 7px;
+                margin-bottom: 13px;
+                background-color: transparent;
+                font-weight: bold;
+                font-size: 16px;
+                border: none;
+                border-bottom: 1px solid #31312F;
+              }
+
+              .btn-footer{
+                padding: 8px 31px;
+                text-decoration: none;
+                text-transform: uppercase;
+                border: 1px solid #303030;
+                border-radius: 20px;
+                background-color: #303030;
+              }
+
+              .right-list .list-right a{
+                letter-spacing: 2px;
+                color: white;
+                font-weight: lighter;
+                font-style: italic;
+              }
+              ::-webkit-input-placeholder { color:#702627; }
+              ::-moz-placeholder { color:#702627; } /* firefox 19+ */
+              :-ms-input-placeholder { color:#702627; } /* ie */
+              input:-moz-placeholder { color:#702627; }
+
+
+
+    footer{
+      width: 100%;
+      height: 6%;
+      background-color: #121212;
+      color: white;
+    }
+
+    .section-footer{
+      width: 70%;
+      margin: auto;
+      color: grey;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+        .section-footer .privacy{
+          float: left;
+        }
+            .section-footer .privacy .left-p{
+              font-style: italic;
+              padding-right: 10px;
+            }
+
+            .section-footer .privacy .right-p{
+              padding-left: 10px;
+            }
+
+        .section-footer .rights{
+          float: right;
+        }

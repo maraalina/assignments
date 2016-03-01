@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body {
+  height: 100%;
+}
+body{
+  background-color: #363C5E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 50%;
+}
+
+      .container .img-logo{
+        width: 135px;
+        height: 70px;
+      }
+
+      .container .title ,.container .subtitle{
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: lighter;
+        letter-spacing: 1px;
+      }
+
+      .container .title{
+        font-size: 40px;
+        padding-top: 12px;
+      }
+
+      .container .subtitle{
+        font-size: 30px;
+        padding-bottom: 75px;
+      }
+
+.center-align{
+  text-align: center;
+}
+
+.container2{
+  height: 33%;
+  -webkit-box-shadow: 16px 22px 45px -9px rgba(37,37,38,1);
+  -moz-box-shadow: 16px 22px 45px -9px rgba(37,37,38,1);
+  box-shadow: 16px 22px 45px -9px rgba(37,37,38,1);
+
+}
+
+    .container .left-content{
+      width: 50%;
+      background-color: #FAF9F7;
+      height: 100%;
+      text-align: center;
+      /*padding: 35px 155px 35px 0;*/
+    }
+
+          .container .left-content .ti-tle{
+            color: #FF6D00;
+            font-weight: bolder;
+            font-size: 53px;
+            font-family: 'Raleway', sans-serif;
+          }
+              .container .left-content .ti-tle .five{
+                font-family: 'Kanit', sans-serif;
+                font-size: 59px;
+              }
+           .container .left-content .sub-title{
+             font-family: 'Raleway', sans-serif;
+             color: #414862;
+             letter-spacing: 1px;
+             font-size: 22px;
+           }
+
+           .container .left-content .note{
+             font-family: 'Averia Serif Libre', cursive;
+             color: #515673;
+             font-size: 16px;
+           }
+
+           .container .left-content .hr{
+             width: 37%;
+             text-align:center;
+             margin: 22px auto;
+             border: 1px solid #DDDEE0;
+           }
+
+      .container .middle-content{
+        width: 30%;
+        height: 100%;
+      }
+
+          .container .middle-content img{
+            height: 100%;
+            width: 100%;
+          }
+
+      .container .right-content{
+        width: 20%;
+        background-color: #FF6D00;
+        height: 100%;
+        text-align: center;
+      }
+
+          .container .right-content a{
+            text-decoration: none;
+            color: white;
+            font-family: 'Kanit', sans-serif;
+            font-weight: normal;
+            line-height: 1;
+            font-size: 25px;
+          }
+          .container .right-content a i{
+            padding-top: 12px;
+          }
+
+.orange{
+  color:#FF6D00;
+}
+
+.code{
+  font-family: 'Fira Sans', sans-serif;
+}

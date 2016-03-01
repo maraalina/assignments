@@ -1,0 +1,298 @@
+.col-100 {
+  width: 100%;
+}
+
+.col-50 {
+  width: 50%;
+  margin-bottom: 100px;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.col-33 {
+  width: 33.3333%;
+}
+
+.col-66 {
+  width: 66.6666%;
+}
+
+.col-75 {
+  width: 75%;
+}
+.col-15 {
+  width: 15%;
+}
+.col-35 {
+  width: 35%;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after,
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.cf:after,
+.row:after {
+  clear: both;
+}
+
+[class^="col-"],
+[class*=" col-"] {
+  float: left;
+}
+
+.container {
+  margin-top: 40px;
+  width: 80%;
+  height: 500px;
+  background: url('iceland.jpg') no-repeat;
+  background-size: cover;
+}
+.container2 {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+body {
+  height: 100%;
+  max-height: 100%;
+  background: url('forest.jpg') no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.nav-bar{
+  position: absolute;
+  top: 0;
+  background-color: white;
+  width: 100%;
+}
+.nav-bar .lupa{
+  float: left;
+  margin-top: 15px;
+  margin-left: 55px;
+  text-decoration: none;
+  color: black;
+}
+.nav-bar .search-box{
+  float: left;
+  margin-top: 15px;
+  margin-left: 100px;
+  line-height: 20px;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+.nav-bar .user-img{
+  margin-top: 15px;
+  float: right;
+  margin-right: 10px;
+}
+.nav-bar .username{
+  margin-top: 19px;
+  color: gray;
+  font-size: 13px;
+  display: inline;
+  float: right;
+  margin-right: 150px;
+}
+.nav-bar .menu-icon{
+  margin-top: 5px;
+  margin-right: 55px;
+  float: right;
+}
+.vertical {
+  display: table;
+  /*width: 80%;*/
+  margin: auto;
+  margin-top: 60px;
+}
+
+.vertical .inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.hero-unit {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.hero-unit .title {
+  font-family: 'Slabo 27px', serif;
+  font-size: 74px;
+  text-transform: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.hero-unit .sub-title {
+  font-size: 22px;
+
+}
+.header-footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+}
+.footer-list{
+  display: inline;
+  float: left;
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 12px;
+  color: white;
+}
+
+.first-item{
+  margin-left: 55px;
+}
+.drop-down{
+  margin-left: 0;
+  background-color: transparent;
+  border:0;
+  outline:none;
+  width: 10%;
+}
+.footer-list-right{
+  display: inline;
+  float: right;
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+}
+.drop-down2{
+  color: white;
+  margin-left: 0;
+  background-color: transparent;
+  border:0;
+  outline:none;
+  width: 6%;
+}
+
+.arrow{
+  font-size: 7px;
+  margin-top: 24px;
+  margin-left: 5px;
+}
+
+.fa-facebook-square{
+  margin-right: 100px;
+  margin-left: 5px;
+  color: white;
+}
+
+.fa-twitter-square{
+  margin-left: 5px;
+  color: white;
+}
+
+.content{
+width: 80%;
+margin: auto;
+background-color: white;
+}
+.history-content{
+  font-size: 15px;
+  width: 60%;
+  margin: auto;
+}
+.paragraph1{
+  line-height: 30px;
+  margin: 0;
+  padding-top:40px;
+}
+.paragraph2{
+  line-height: 30px;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+.iceland-map{
+  text-align: center;
+}
+.img-footer{
+  margin: 0;
+  font-style: italic;
+}
+.paragraph-left{
+  line-height: 30px;
+  display: inline;
+  float: left;
+  width: 50%;
+  margin-top: 5px;
+  padding-right: 20px;
+}
+.food-img{
+  border: 1px solid black;
+}
+.img-footer2{
+  margin-left: 50%;
+  font-style: italic;
+  margin-top: 0;
+}
+.h-politics{
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+.content-menu{
+  display: inline;
+  float:left;
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+.first{
+  font-weight: bold;
+}
+hr{
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 45px;
+}
+.link {
+  display: block;
+  margin-top: 12px;
+  margin-left: 10px;
+  color: black;
+}
+.footer-text{
+  text-align: center;
+  /*margin-top: 60px;*/
+  font-size: 14px;
+}
+.footer-links{
+  font-size: 14px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  float: left;
+  color: black;
+}
+.center{
+  margin-left: 25%;
+}

@@ -1,0 +1,30 @@
+h1{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  float: left;
+
+}
+
+a:hover {
+  color:red;
+  text-decoration: none;
+}
+
+a:link{
+  color:green;
+}
+
+footer{
+  text-align: right;
+}
+
+p{
+  padding-left: 10px;
+  overflow: hidden;
+}
